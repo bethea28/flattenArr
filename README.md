@@ -20,5 +20,5 @@ flatten([0, 2, [[2, 3], 8, 100, null, [[null]]], -2]);
 
 
 ### Cases where my solution may fail and tradeoffs
-My solution will work with any cases however it heavily relies
+My solution will work with any case however it heavily relies
 on recursion. Writing it this way allows my code to be eloquently written; however, it makes it inefficient in terms of run time optimization.
