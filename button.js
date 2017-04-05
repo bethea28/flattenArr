@@ -1,4 +1,7 @@
-
+//function flattens any nested array of any datatypes
+//function recursively goes through each data structure unit is has the
+//individual element by itself then pushes that single element to an empty array
+// if it is not a null value
 
 const flatten = (arr) => {
     let finalArray = []
